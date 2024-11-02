@@ -1,0 +1,232 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* header start */
+.nav_logo {
+    font-size: 25px;
+}
+.nav_menu ul li a {
+    padding: 4px 0px !important;
+}
+.btn_dd {
+    width: 310px;
+    padding-right: 20px;
+    padding-left: 5px;
+    }
+.btn_dd[data-bs-popper] {
+    top: 115%;
+    left: -19px;
+}
+/* header end */
+/* banner start */
+.slider {
+    margin: 90px 0 80px;
+}
+.slider h1 {
+    font-size: 27px;
+}
+.slider p {
+    padding-right: 0px;
+    margin: 25px 0;
+}
+.btn_common {
+    font-size: 12px;
+}
+/* banner end */
+/* services strat */
+.common_pb {
+    padding-bottom: 60px;
+}
+.common_shape {
+    height: 30px;
+}
+.common_title h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.st_margin {
+    margin-top: 50px;
+}
+/* services end */
+/* about start */
+.about {
+    padding-bottom: 60px;
+}
+.about_img {
+    margin-bottom: 40px;
+}
+.about_text p {
+    margin-top: 10px;
+}
+.about_text a {
+    margin-top: 20px;
+}
+/* about end */
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+.nav_menu ul li a {
+    padding: 4px 0px !important;
+}
+.btn_dd[data-bs-popper] {
+    top: -35%;
+    left: 85px;
+}
+/* header end */
+/* banner start */
+.slider {
+    margin: 90px 0 80px;
+}
+.slider h1 {
+    font-size: 40px;
+}
+.slider p {
+    padding-right: 80px;
+    margin: 30px 0;
+}
+/* banner end */
+/* services strat */
+.common_pb {
+    padding-bottom: 70px;
+}
+.common_shape {
+    height: 35px;
+}
+.common_title h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.st_margin {
+    margin-top: 60px;
+}
+/* services end */
+/* about start */
+.about {
+    padding-bottom: 60px;
+}
+.about_img {
+    margin-bottom: 40px;
+}
+.about_text p {
+    margin-top: 15px;
+}
+.about_text a {
+    margin-top: 30px;
+}
+/* about end */
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start */
+.nav_menu ul li a {
+    padding: 6px 0px !important;
+}
+.btn_dd[data-bs-popper] {
+    top: -35%;
+    left: 85px;
+}
+/* header end */
+/* banner start */
+.slider {
+    margin: 90px 0 80px;
+}
+.slider h1 {
+    font-size: 50px;
+}
+.slider p {
+    padding-right: 150px;
+}
+/* banner end */
+/* services strat */
+.common_pb {
+    padding-bottom: 80px;
+}
+.common_shape {
+    height: 40px;
+}
+.common_title h1 {
+    font-size: 28px;
+}
+.st_margin {
+    margin-top: 70px;
+}
+/* services end */
+/* about start */
+.about {
+    padding-bottom: 80px;
+}
+.about_img {
+    margin-bottom: 40px;
+}
+.about_text p {
+    margin-top: 15px;
+}
+/* about end */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* banner start */
+.slider h1 {
+    font-size: 45px;
+}
+.slider p {
+    padding-right: 60px;
+}
+/* banner end */
+
+/* services strat */
+.common_shape {
+    height: 40px;
+}
+.common_title h1 {
+    font-size: 28px;
+}
+/* services end */
+/* about start */
+.about_text p {
+    margin-top: 6px;
+    font-size: 15px;
+    line-height: 24px;
+}
+.about_text a {
+    margin-top: 5px;
+}
+/* about end */
+}
+
+
+/* Extra large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* banner start */
+.slider h1 {
+    font-size: 50px;
+}
+.slider p {
+    padding-right: 96px;
+}
+/* banner end */
+/* about start */
+.about_text p {
+    margin-top: 14px;
+}
+/* about end */
+}
+
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+/* banner start */
+.about_text {
+    padding: 0px 40px;
+}
+.about_text a {
+    margin-top: 105px;
+}
+/* banner end */
+}
